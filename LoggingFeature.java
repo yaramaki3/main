@@ -5,6 +5,8 @@ import javax.ws.rs.core.FeatureContext;
 import javax.ws.rs.ext.Provider;
 import knowledgebank.rest.service.KnowledgeResource;
 
+
+//Rest
 @Provider
 public class LoggingFeature implements DynamicFeature {
     @Override
